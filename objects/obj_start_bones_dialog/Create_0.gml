@@ -1,0 +1,1 @@
+room2_intro_dialog_done = false;

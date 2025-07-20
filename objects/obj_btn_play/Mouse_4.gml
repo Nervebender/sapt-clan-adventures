@@ -1,0 +1,1 @@
+scr_fade_to_room(Room0);
