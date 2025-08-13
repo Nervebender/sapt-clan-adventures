@@ -31,7 +31,13 @@
             global.dialog_timer = 120;
         }
         else {
-		var _inst = instance_create_depth(x, y, depth, obj_attack)
+            var dist = 0; 
+            var dir = facing;
+            
+            var _x = x + lengthdir_x(dist, dir);
+            var _y = y + lengthdir_y(dist, dir);
+            
+		var _inst = instance_create_depth(_x, _y, depth, obj_attack)
         
 		_inst.image_angle = facing;
 		_inst.damage *= damage;
