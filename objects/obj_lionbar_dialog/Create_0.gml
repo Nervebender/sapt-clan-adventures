@@ -1,1 +1,0 @@
-room3_lionbar_dialog_done = false;

@@ -1,0 +1,1 @@
+room3_dialog_done = false;

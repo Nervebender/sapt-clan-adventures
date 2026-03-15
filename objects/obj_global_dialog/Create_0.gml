@@ -4,6 +4,7 @@ room0_intro_dialog = false;
 room0_intro_dialog_post_throw = false;
 room1_intro_dialog = false;
 room0_intro_dialog_done = false;
+room5_dialog_done = false;
 
 global.dialog_active = false;
 
@@ -100,7 +101,7 @@ global.room2_dialog_bones = [
 		},
         {
 		   name: "Bones",
-		   msg:  "Erm, okej då.. Låt gå. Ta hjälp av SAPT för att lösa gåtorna och besegra dina fienden"
+		   msg:  "Erm, okej då.. Låt gå. Ta hjälp av SAPT för att lösa gåtorna och besegra dina fienden.."
 		},
         {
 		   name: "",
@@ -115,18 +116,33 @@ global.room2_dialog_bones = [
 global.room3_lionbar_dialog = [
 		{
 			name: "Elon",
-			msg: "Vilken jävla backhand! Var är jag...? Grabbar?!"
+			msg: "Ni sa att ni skulle vänta..."
 		},
 		{
 		   name: "Jens",
-		   msg:  "Elon! Hör du oss?"
+		   msg:  "Men laaaaatch, vi är tre Gränges in, du får komma ikapp!"
 		},
 		{
 		   name: "Elon",
-		   msg:  "Jag hör er! Jag fuckade upp, discen är helt väck! Fadölen ger mig extra krafter.. Gå ni vidare så kommer jag!"
+		   msg:  "Alltså sjukaste grejen hände mig i skogen innan, det var ett skelett typ som.."
 		},
 		{
-		   name: "Henrik",
-		   msg:  "Gå mot våra röster!"
+		   name: "Johan",
+		   msg:  "Hörde ni att dom ska höja till 39 spänn snart?"
+		},
+        {
+		   name: "Elon",
+		   msg:  "Suck... jag får lösa detta själv..."
 		}
+		];
+
+global.room5_mats_dialog = [
+		{
+			name: "Mats",
+			msg: "Huehuehuehueuhuheuhehu, du ee annstelld!"
+		},
+		{
+		   name: "Elon",
+		   msg:  "Vad i hela...."
+		},
 		];

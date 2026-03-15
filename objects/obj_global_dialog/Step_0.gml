@@ -26,5 +26,10 @@
 		
 		room1_intro_dialog = true;
 	}
-
+    
+    if (!room5_dialog_done) and (room == Room5) {
+		create_dialog(global.room5_mats_dialog)
+		
+		room5_dialog_done = true;
+	}
  
